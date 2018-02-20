@@ -25,6 +25,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
+	compile(group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.4')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
